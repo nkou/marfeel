@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+}
+
+/*
+ * Pie Chart Styles
+ */
+
+/*
+.pieChartContainer {
+    border-top: 2px solid #EAEAEA;
+}
+*/
+svg.pieChart {
+    border-bottom: 2px solid #EAEAEA;
+}
+
+.pieChart--center--innerCircle {
+  fill: #FFFFFF;
+}
+
+.pieChart--head--title {
+    fill: #9a9a9a;
+    font-size: 14px;
+    font-weight: 700;
+}
+.pieChart--head--value {
+    fill: #2f2f2f;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pieChart--detail--quarter {
+    stroke: #BFCBCF;
+    stroke-width: 2px;
+}
+.pieChart--detail--percentage {
+    fill: #8F8F8F;
+    font-size: 11px;
+    font-weight: 700;
+    stroke-width: 1px;
+}
+.pieChart--detail--value {
+    fill: #BABABA;
+    font-size: 11px;
+    font-weight: 700;
+    stroke-width: 1px;
+}
+
+.pieChart--detail--textContainer {
+  background-color: transparent;
+  padding: 0 0 0 0;
+  margin: 0;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pieChart--detail__left {
+  text-align: left;
+}
+
+.pieChart--detail__right {
+  text-align: right;
+}
+
+.pieChart__lightgreen {
+  fill: #9CCD4B;
+  color: #9CCD4B;
+}
+.pieChart__darkgreen {
+  fill: #445E1C;
+  color: #445E1C;
+}
+.pieChart__ciel {
+  fill: #8BC1DF;
+  color: #8BC1DF;
+}
+.pieChart__navy {
+  fill: #2C4A5B;
+  color: #2C4A5B;
+}
+.pieChart__yellow {
+  fill: #E2BD3B;
+  color: #E2BD3B;
+}
+.pieChart__red {
+  fill: #A24F25;
+  color: #A24F25;
+}
